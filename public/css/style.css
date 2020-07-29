@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap');
+*{
+    box-sizing:border-box;
+}
+body {
+    margin:0;
+    padding:0;
+    font-family: 'Crimson Text', serif;
+    color:black;
+}
+header {
+    width:100%;
+    min-height:50vh;
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    overflow:hidden;
+}
+.header__grid {
+    display:grid;
+    grid-template-rows:1fr 4fr;
+}
+
+.header__grid h1 {
+    text-align:center;
+    color:white;
+    font-size:2em;
+    letter-spacing:3px;
+}
+.header__grid h1:hover{
+    letter-spacing:0px;
+    transition:1s;
+    cursor:pointer;
+}
+.header__grid form {
+    padding:3%;
+    width:80%;
+    margin:5px auto;
+    text-align:center;
+    background:#20202A;
+    border-radius:2%;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 1.19);
+
+}
+.header__title__form {
+    display:flex;
+    justify-content:space-between;
+    width:50%;
+    margin:0 auto;
+}
+.header__title__form p {
+    color:#C5D4D9;
+    letter-spacing:0.5px;
+}
+.header__icon__arrow {
+    position:relative;
+    width:11%;
+    height:10px;
+    margin:3% auto 0 auto;
+    background:#FEFF94;
+    border-radius:30%;
+}
+.header__box{
+    position:absolute;
+    left: -1px;
+    top: -5px;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background:white;
+    z-index:5;
+    cursor:pointer;
+    transition:1s;
+}
+
+.header__grid form input[type=text], .header__grid form input[type=password]{
+    width:80%;
+    color:white;
+    background:#2D2D37;
+    border-radius:3px;
+    border-bottom:solid 0.5px black;
+    border-right:solid 0.5px black;
+    
+}
+.header__grid form input[type=text]::placeholder, .header__grid form input[type=password]::placeholder{
+    letter-spacing:0.5px;
+    padding-left:3%;
+    color:#C5D4D9;
+}
+.header__grid form input[type=text]{
+    margin:15% 0 1% 0;
+}
+.header__grid form input[type=submit]{
+    padding:3% 5%;
+    margin-top:7px;
+    background:#FEFF94;
+    border:none;
+    border-radius:5%;
+    color:black;
+    box-shadow: 2px 2px black;
+    transition:0.1s;
+}
+.header__grid form input[type=submit]:hover,.header__grid form input[type=submit]:focus,
+.header__grid form input[type=submit]:active{
+    opacity:1;
+    border:solid 1px black;
+}
+.baxroma{
+    background-image:linear-gradient(to bottom right,#F1C473,#8C4D29);
+}
+.tokyo{
+    background-image:linear-gradient(to bottom right, #2C3A5C, #1A2746)
+}
+.cakes{
+    background-image:linear-gradient(to bottom right,#F3E7CF, #9E4E51)
+}
+
+main{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr;
+    background:#2A4E59;
+}
+main h1{
+    margin:100px;
+    font-size:55px;
+    letter-spacing:46px;
+    color:red;
+    
+}
+footer{
+    height:200px;
+    background:#20202A;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    color:white;
+}
+.footer{
+    color:red;
+}
