@@ -13,22 +13,29 @@
        <header>
          <a href="/"><h1>TOKIO-SITY</h1></a>
          <ul>
-            <li><a href="/">TOKIO-SITY</a></li>
+            <li><a href="/">ТОКИО-СИТИ</a></li>
             <li><a href="#">БАХРОМА</a></li>
             <li><a href="#">ГОРОДСКИЕ КОНДИТЕСРКИЕ</a></li>
          </ul>
        </header>
        <main>
         <div class="main_button">
-            <button>Войти</button>
-            <button>Регистрация</button>
+            <button class="main_login">Войти</button>
+            <button class="main_signup">Регистрация</button>
         </div>
         <div class="main_form">
-            <form action="#" method="post">
+            <form action="#" method="post" class="form_login main_hide form_general">
                 <h3>Войти в кабинет</h3>
-                <input type="text" name="login" placeholder="Введите логин или email">
+                <input type="text" name="login" placeholder="Введите имя или email">
                 <input type="password" name="password" placeholder="Введите пароль">
                 <input type="submit" value="Войти">
+            </form>
+            <form action="#" method="post" class="form_signup form_general">
+                <h3>Регистрация</h3>
+                <input type="text" name="login" placeholder="Введите имя">
+                <input type="email" name="email" placeholder="Введите email">
+                <input type="password" name="password" placeholder="Придумайте пароль">
+                <input type="submit" value="Регистрация">
             </form>
             <div class="main_img">
                 
@@ -49,16 +56,16 @@
         </div>
         <div class="contact">
             <ul>
-                <li><a href="#">Главное</a></li>
+                <li><a href="/">Главное</a></li>
                 <li><a href="#">контакты</a></li>
                 <li><a href="#">Отзывы</a></li>
                 <li><a href="#">Предложения</a></li>
             </ul>
             <ul>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Instgram</a></li>
-                <li><a href="#">Вконтакте</a></li>
+                <li><a href="https://www.facebook.com/">Facebook</a></li>
+                <li><a href="https://twitter.com/">Twitter</a></li>
+                <li><a href="https://www.instagram.com/">Instgram</a></li>
+                <li><a href="https://vk.com/">Вконтакте</a></li>
             </ul>
         </div>
     </footer>
