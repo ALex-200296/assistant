@@ -6,60 +6,36 @@
     <title>Assistant</title>
     <link rel="stylesheet" href="reset.css" type="text/css">
     <link rel="stylesheet" href="style.css" type="text/css">
+    <script type="text/javascript" src="client.js" defer></script>
 </head>
 <body>
-    <header>
-        <div class="baxroma header__grid">
-            <div class="image__baxroma">
-                <div>
-                    <h1>Бахрома</h1>
-                </div>
-            </div>
+   <div class="container">
+       <header>
+         <a href="/"><h1>TOKIO-SITY</h1></a>
+         <ul>
+            <li><a href="/">TOKIO-SITY</a></li>
+            <li><a href="#">БАХРОМА</a></li>
+            <li><a href="#">ГОРОДСКИЕ КОНДИТЕСРКИЕ</a></li>
+         </ul>
+       </header>
+       <main>
+        <div class="main_button">
+            <button>Войти</button>
+            <button>Регистрация</button>
+        </div>
+        <div class="main_form">
             <form action="#" method="post">
-                <div class="header__title__form">
-                    <p>Логин</p>
-                    <p>Регистрация</p>
-                </div>
-                <div class="header__icon__arrow"><div class="header__box checked"></div></div>
-                <input type="text" name="login" placeholder="Введите Email">
-                <input type="password" name="password" placeholder="Введите пароль">
-                <input type="submit" name="submit">
+                <h3>Войти в кабинет</h3>
+                <input type="text" name="login">
+                <input type="password" name="password">
+                <input type="submit" value="Войти">
             </form>
-        </div>
-        <div class="cakes header__grid">
-            <div class="image__cakes">
-                <h1 class="title__h1">Городские кондитерские</h1>
+            <div class="main_img">
+                
             </div>
-            <form action="#" method="post">
-                <div class="header__title__form">
-                    <p>Логин</p>
-                    <p>Регистрация</p>
-                </div>
-                <div class="header__icon__arrow"><img src="arrow.png" alt="arrow"></div>
-                <input type="text" name="login" placeholder="Введите Email">
-                <input type="password" name="password" placeholder="Введите пароль">
-                <input type="submit" name="submit">
-            </form>
         </div>
-             <div class="tokyo header__grid">
-                  <div class="image__tokyo">
-                 <h1 class="title__h1">Токио-сити</h1>
-             </div>
-             <form action="#" method="post">
-                <div class="header__title__form">
-                    <p>Логин</p>
-                    <p>Регистрация</p>
-                </div>
-                <div class="header__icon__arrow"><img src="arrow.png" alt="arrow"></div>
-                <input type="text" name="login" placeholder="Введите Email">
-                <input type="password" name="password" placeholder="Введите пароль">
-                <input type="submit" name="submit">
-            </form>
-        </div>
-    </header>
-    <main>
-        <h1 class="main__h1">В разработке</h1>
-    </main>
+       </main>
+   </div>
     <footer>
         <div class="footer__logo">
 
@@ -80,6 +56,6 @@
             </ul>
         </div>
     </footer>
-    <script type="text/javascript" src="client.js"></script>
+    
 </body>
 </html>
